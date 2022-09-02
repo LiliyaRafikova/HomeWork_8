@@ -27,7 +27,7 @@ void PrintArray (int[,] array)
 {
   for (int i = 0; i < array.GetLength(0); i++)
   {
-    ffor (int j = 0; j < array.GetLength(1); j++)
+    for (int j = 0; j < array.GetLength(1); j++)
     {
       if (array[i,j] / 10 <= 0)   // дополнительный 0 для однозначных чисел
       Console.Write($"0{array[i,j]} ");
